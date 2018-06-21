@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euler", "Euler\Euler.csproj", "{80B13C8B-2166-4F2F-8381-58DCF7B02781}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Euler", "Euler\Euler.csproj", "{80B13C8B-2166-4F2F-8381-58DCF7B02781}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extensions", "Extensions\Extensions.csproj", "{7FADB1EE-B586-45E9-929E-D44CBA8F0E77}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utils", "Utils\Utils.csproj", "{505EA05C-8E86-4AA0-9B1A-2FED2CA4B5D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EulerLib", "EulerLib\EulerLib.csproj", "{3BBB242B-C5F8-4463-B860-6A518C2C4CE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{80B13C8B-2166-4F2F-8381-58DCF7B02781}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80B13C8B-2166-4F2F-8381-58DCF7B02781}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80B13C8B-2166-4F2F-8381-58DCF7B02781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FADB1EE-B586-45E9-929E-D44CBA8F0E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FADB1EE-B586-45E9-929E-D44CBA8F0E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FADB1EE-B586-45E9-929E-D44CBA8F0E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FADB1EE-B586-45E9-929E-D44CBA8F0E77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{505EA05C-8E86-4AA0-9B1A-2FED2CA4B5D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{505EA05C-8E86-4AA0-9B1A-2FED2CA4B5D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{505EA05C-8E86-4AA0-9B1A-2FED2CA4B5D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{505EA05C-8E86-4AA0-9B1A-2FED2CA4B5D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BBB242B-C5F8-4463-B860-6A518C2C4CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BBB242B-C5F8-4463-B860-6A518C2C4CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BBB242B-C5F8-4463-B860-6A518C2C4CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BBB242B-C5F8-4463-B860-6A518C2C4CE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
