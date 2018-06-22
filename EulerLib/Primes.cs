@@ -26,11 +26,10 @@ namespace EulerLib
             return result;
         }
 
-        public static ICollection<int> GetPrimesUnderN(int max) => GetPrimesUnderN((long)max);
-        public static ICollection<int> GetPrimesUnderN(long max)
+        public static ICollection<long> GetPrimesUnderN(long max)
         {
             var n = 3;
-            var result = new List<int> { 2 };
+            var result = new List<long> { 2 };
             var prime = true;
             while (n < max)
             {
