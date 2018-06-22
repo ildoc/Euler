@@ -34,9 +34,11 @@ namespace Euler
                     Console.WriteLine("Description:");
                     Console.WriteLine(instance.Description);
                     Console.WriteLine("--------------------------");
+                    Console.WriteLine();
                     Console.WriteLine($"Solution: {instance.GetSolution()}");
                 }
 
+                Console.WriteLine();
                 Console.WriteLine();
                 Console.Write("Exit? (y/n): ");
                 exit = Console.ReadKey().KeyChar;
