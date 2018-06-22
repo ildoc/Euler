@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Linq;
 using System.Reflection;
-using EulerLib;
 using Extensions;
 
 namespace Euler
@@ -14,7 +13,7 @@ namespace Euler
 
             while (exit.IsNotIn("yY"))
             {
-                Console.Write("Choose problem number:");
+                Console.Write("Choose problem number: ");
                 var choice = Console.ReadLine();
                 Console.Clear();
 
