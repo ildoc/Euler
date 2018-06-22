@@ -34,5 +34,12 @@ namespace Extensions
             return new string(chars.ToArray());
         }
 
+        public static int Multiply(this IEnumerable<int> ints)
+        {
+            var res = 1;
+            ints.Each(x => res *= x);
+            return res;
+        }
+
     }
 }
