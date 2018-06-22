@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Utils;
 
 namespace Extensions
@@ -28,5 +29,10 @@ namespace Extensions
             for (var i = start; i >= end; --i)
                 yield return i;
         }
+        public static string ToString(this IEnumerable<char> chars)
+        {
+            return new string(chars.ToArray());
+        }
+
     }
 }

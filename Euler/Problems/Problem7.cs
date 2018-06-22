@@ -1,5 +1,4 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using EulerLib;
 
 namespace Euler.Problems
@@ -14,7 +13,9 @@ What is the 10 001st prime number?";
 
         public string GetSolution()
         {
-            return Primes.GetPrimes(10001).Last().ToString();
+            return Primes.GetPrimes(10001)
+                .Last()
+                .ToString();
         }
     }
 }
