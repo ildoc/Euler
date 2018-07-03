@@ -24,6 +24,12 @@ namespace Extensions
                 yield return i;
         }
 
+        public static IEnumerable<long> To(this long start, long end)
+        {
+            for (var i = start; i <= end; ++i)
+                yield return i;
+        }
+
         public static IEnumerable<int> BackTo(this int start, int end)
         {
             for (var i = start; i >= end; --i)
